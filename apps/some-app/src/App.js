@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import { FormattedMessage, IntlProvider } from 'react-intl';
 import './App.css';
+
+import { HelloLibrary } from 'ui';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <IntlProvider locale='pl' defaultLocale='pl'>
+      <div className='App'>
+        <FormattedMessage
+          id='myMessage'
+          defaultMessage='Hello from apps/some-app'
+        />
+        <HelloLibrary />
+      </div>
+    </IntlProvider>
   );
 }
 
