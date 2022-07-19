@@ -1,0 +1,20 @@
+{
+  "name": "react-intl-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm -r start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morriq/react-intl-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morriq/react-intl-test/issues"
+  },
+  "homepage": "https://github.com/morriq/react-intl-test#readme"
+}
